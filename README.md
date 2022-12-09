@@ -1,8 +1,8 @@
-Markdown Cheatsheet<a name= "TOP"></a>
-===================
+# Markdown Cheatsheet<a name= "TOP"></a>
 
-- - - -
-# Heading 1 #
+---
+
+# Heading 1
 
     Markup : # Heading 1 #
 
@@ -10,7 +10,7 @@ Markdown Cheatsheet<a name= "TOP"></a>
 
     Markup : ============= (below H1 Text)
 
-## Heading 2 ##
+## Heading 2
 
     Markup : ## Heading 2 ##
 
@@ -18,7 +18,7 @@ Markdown Cheatsheet<a name= "TOP"></a>
 
     Markup : --------------- (below H2 Text)
 
-### Heading 3 ###
+### Heading 3
 
     Markup : ### Heading 3 ###
 
@@ -32,9 +32,9 @@ _Emphasized Text_
 
 ~~Strikethrough text~~
 
-    Markup : ~~Strikethrough Text~~ 
+    Markup : ~~Strikethrough Text~~
 
-__Strong emphasized text__
+**Strong emphasized text**
 
     Markup : __Strong emphasized text__ or ***Strong emphasized text***
 
@@ -48,10 +48,10 @@ __Strong emphasized text__
 
 Table, like this one :
 
-First header | Second header
------------- | -------------
-Content cell | Content cell
-Content cell | Content cell
+| First header | Second header |
+| ------------ | ------------- |
+| Content cell | Content cell  |
+| Content cell | Content cell  |
 
 ```
 
@@ -67,38 +67,40 @@ Content cell | Content cell
     Markup : `code()`
 
 ```javascript
-    var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
-        }
-    }
+var specificLanguage_code = {
+  data: {
+    lookedUpPlatform: 1,
+    query: "Kasabian+Test+Transmission",
+    lookedUpItem: {
+      name: "Test transmission",
+      artist: "Kasabian",
+      album: "Kasabian",
+      picture: null,
+      link: "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp",
+    },
+  },
+};
 ```
+
     Markup : ```javascript
              ```
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2 
+- Bullet list
+  - Nested bullet
+    - Sub-nested bullet etc
+- Bullet list item 2
+
 1. A numbered list
-    1. A nested numbered list 
-    2. Which is numbered
+   1. A nested numbered list
+   2. Which is numbered
 2. Which is numbered
 
 - [ ] An uncompleted task
 - [x] A completed task
 
 > Blockquote
->> Nested blockquote
+>
+> > Nested blockquote
 
 Foldable text:
 
@@ -113,7 +115,7 @@ Foldable text:
 
 ```html
 <h3>HTML</h3>
-<p>Content 2 Content 2 Content 2 Content 2 </p>
+<p>Content 2 Content 2 Content 2 Content 2</p>
 ```
 
 Link to a specific part of the page:
@@ -128,24 +130,24 @@ Hotkey:
 
     Markup: <kdb>⇧⌘F</kdb>
 
-Hotkey list: 
+Hotkey list:
 
-| Key | Symbol |
-| --- | --- |
-| Option | ⌥ |
-| Control | ^ |
-| Command | ⌘ |
-| Shift | ⇧ |
-| Caps Lock | ⇪ |
-| Tab | ⇥ |
-| Esc | ⎋ |
-| Power | ⌽ |
-| Return | ⏎ |
-| Delete | ⌫ |
-| Up | ↑ |
-| Down | ↓ |
-| Left | ← |
-| Right | → |
+| Key       | Symbol |
+| --------- | ------ |
+| Option    | ⌥      |
+| Control   | ^      |
+| Command   | ⌘      |
+| Shift     | ⇧      |
+| Caps Lock | ⇪      |
+| Tab       | ⇥      |
+| Esc       | ⎋      |
+| Power     | ⌽      |
+| Return    | ⏎      |
+| Delete    | ⌫      |
+| Up        | ↑      |
+| Down      | ↓      |
+| Left      | ←      |
+| Right     | →      |
 
 Emoji:
 
@@ -154,3 +156,7 @@ Emoji:
     Markup : Code appears between colons :EMOJICODE:
 
 :mask:
+
+#Information
+Sorawee Sriphakdeephongdej
+642115045
